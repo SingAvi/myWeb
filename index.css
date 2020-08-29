@@ -2,16 +2,18 @@ body{
 
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
+    
 
 }
 
 .top-bar{
 
-    background-color: rgb(221, 255, 255);
+    background-color:#1E90FF;
     padding-top: 12px;
     padding-left: 24px;
     padding-right : 24px;
     padding-bottom: 12px;
+    color:white;
     
     
 }
@@ -20,7 +22,6 @@ body{
 
     margin: 0;
     display: inline;
-    color: black;
     float: right;
     position: relative;
     top: 10px;
@@ -32,22 +33,129 @@ body{
 
     font-size: 24px;
     font-family: 'Pacifico', cursive;
+    letter-spacing: 2px;
 }
 
 #nav-items{
 
-    color: black;
+    color: white;
     cursor: pointer;
     padding-left: 4px;
     padding-right: 4px;
     margin-right: 12px;
-
+    font-weight: 300;
+    
 }
 
 #nav-items:hover{
 
-    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
 
+}
+
+.me-section{
+
+    
+    padding-top: 28px;
+    padding-right: 56px;
+    padding-left: 56px;
+
+}
+
+.me-section-left{
+
+    width: 40%;
+    height: 400px;
+    display: inline-block;
+    float: left;
+    
+   
+}
+.me-section-right{
+    
+    height: 300px;
+    width: 40%;
+    display: inline-block;
+    float: right;
+
+}
+
+#undraw-image{
+
+    margin: 0;
+    width: 500px;
+    height: 600px;
+   
+}
+
+.hello{
+
+    position: relative;
+    top: 200px;
+    font-family: 'Ubuntu', sans-serif;
+    left: 100px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-size: 32px;
+    color:#1E90FF;
+    text-shadow: 4px 4px 1px #e6e6e6; 
+}
+
+.my-name{
+
+    position: relative;
+    top: 215px;
+    left: 100px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 48px;
+    text-shadow: 6px 6px 2px rgb(231, 231, 231); 
+
+    
+}
+
+.my-skills-wrapper{
+
+    position: relative;
+    top: 250px;
+    left: 100px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    word-spacing: 10px;
+    font-size: 16px;
+    color:rgb(124, 124, 124);
+
+}
+
+#skills-items:hover {
+
+    cursor: default;
+}
+
+.know-more-btn{
+
+    position: relative;
+    background-color: #1E90FF;
+    border: 1px solid #1E90FF;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 12px;
+    border-radius: 4px;
+    top: 300px;
+    left: 100px;
+    color:white;
+    letter-spacing: 1px;
+    transition:  0.5s all ease-in-out;
+
+}
+
+.know-more-btn:hover{
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
