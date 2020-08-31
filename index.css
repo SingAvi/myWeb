@@ -2,18 +2,24 @@ body{
 
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
-    
+  
 
 }
 
 .top-bar{
 
+    box-sizing: border-box;
     background-color:#1E90FF;
     padding-top: 12px;
     padding-left: 24px;
     padding-right : 24px;
     padding-bottom: 12px;
     color:white;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(184, 184, 184, 0.2), 0 6px 20px 0 rgba(134, 134, 134, 0.19);
+    z-index: 1;
     
     
 }
@@ -21,30 +27,39 @@ body{
 .top-bar-items{
 
     margin: 0;
-    display: inline;
-    float: right;
     position: relative;
     top: 10px;
+    float: right;;
     margin-right: 24px;
 
 }
+
 
 #logoText{
 
     font-size: 24px;
     font-family: 'Pacifico', cursive;
     letter-spacing: 2px;
+
 }
 
 #nav-items{
 
+ 
     color: white;
-    cursor: pointer;
     padding-left: 4px;
     padding-right: 4px;
     margin-right: 12px;
+    font-size: 14px;
     font-weight: 300;
     
+}
+
+#nav-items-link{
+
+    text-decoration: none;
+    color: white;
+   
 }
 
 #nav-items:hover{
@@ -54,63 +69,72 @@ body{
 
 }
 
-.me-section{
+.landing-section{
 
+    box-sizing: border-box;
+    margin-top: 50px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 48px;
+    padding-right: 48px;
+    vertical-align: top;
     
-    padding-top: 28px;
-    padding-right: 56px;
-    padding-left: 56px;
-
+    
 }
 
-.me-section-left{
+.me-section-left-wrapper{
 
-    width: 40%;
-    height: 400px;
+    height: 500px;
+    vertical-align: top;
+    margin-top: 100px;
+    width: 49%;
     display: inline-block;
-    float: left;
     
    
+   
 }
-.me-section-right{
-    
-    height: 300px;
-    width: 40%;
+.me-section-right-wrapper{
+ 
+    height: 500px;
+    width: 49%;
     display: inline-block;
-    float: right;
 
+
+   
 }
+
 
 #undraw-image{
 
     margin: 0;
-    width: 500px;
-    height: 600px;
+    width: 100%;
+    height: 100%;
+   
    
 }
 
 .hello{
-
-    position: relative;
-    top: 200px;
+    
+    margin-left: 150px;
     font-family: 'Ubuntu', sans-serif;
-    left: 100px;
     font-weight: bolder;
     letter-spacing: 2px;
     font-size: 32px;
     color:#1E90FF;
+    margin-top: 10px;
+    margin-bottom: 10px ;
     text-shadow: 4px 4px 1px #e6e6e6; 
 }
 
 .my-name{
 
-    position: relative;
-    top: 215px;
-    left: 100px;
+    margin-left: 150px;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     letter-spacing: 2px;
     font-size: 48px;
+    margin-top: 40px;
+    margin-bottom: 5px;
     text-shadow: 6px 6px 2px rgb(231, 231, 231); 
 
     
@@ -118,13 +142,12 @@ body{
 
 .my-skills-wrapper{
 
-    position: relative;
-    top: 250px;
-    left: 100px;
+    margin-left: 150px;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
     word-spacing: 10px;
     font-size: 16px;
+    margin-top: 20px;
     color:rgb(124, 124, 124);
 
 }
@@ -136,7 +159,8 @@ body{
 
 .know-more-btn{
 
-    position: relative;
+    margin-left: 150px;
+    margin-top: 70px;
     background-color: #1E90FF;
     border: 1px solid #1E90FF;
     padding-left: 16px;
@@ -145,8 +169,6 @@ body{
     padding-bottom: 8px;
     font-size: 12px;
     border-radius: 4px;
-    top: 300px;
-    left: 100px;
     color:white;
     letter-spacing: 1px;
     transition:  0.5s all ease-in-out;
@@ -158,4 +180,24 @@ body{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.footer-social-links{
+
+   
+    
+    position: absolute  ;
+    bottom: 0;
+    right: 0;
+    
+    
+}
+
+.btn-links
+{
+    margin-top: 5px;
+  background-color: #1E90FF;
+  border: none;
+  color: white;
+  padding: 8px;
+  border-radius: 50px;
+}
 

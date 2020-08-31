@@ -3,50 +3,63 @@
 <html>
     <head>
         <title>SingAvi</title>
-        <link href="/mySite/assets/css/index.css" rel="stylesheet" type="text/css"/>
+        <link href="/mySite/index.css" rel="stylesheet" type="text/css"/>
+      
+        <link rel="icon" href="https://image.flaticon.com/icons/svg/3430/3430235.svg">
+       
         <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,500;1,300&display=swap" rel="stylesheet">
-
-    </head>
+        <script src="https://kit.fontawesome.com/f004e24aab.js" crossorigin="anonymous"></script>
+  </head>
+       
+    </head> 
     <body>
         <header>
-            <div></div>
+
             <div class="top-bar">
                 <span id="logoText">SingAvi</span>
                 <div class="top-bar-items">
-                    <span id="nav-items">Home</span>
-                    <span id="nav-items">Work</span>
-                    <span id="nav-items">Projects</span>
-                    <span id="nav-items">Contact</span>
+                    <span id="nav-items"><a id="nav-items-link" href="">Home</a></span>
+                    <span id="nav-items"><a id="nav-items-link" href="">Work</a></span>
+                    <span id="nav-items"><a id="nav-items-link" href="">Projects</a></span>
+                    <span id="nav-items"><a id="nav-items-link" href="">Contacts</a></span>
                 </div>
             </div>
 
         </header>
 
         <main>
-            <div class="me-section">  
-                <div class="me-section-left">
-                    <div class="hello">Hello,</div>
-                    <div class="my-name">I'm Avinash Singh</div>
-                    <div class="my-skills-wrapper">
-                            <span id="skills-items">Android</span>
-                            <span id="skills-items">|</span>
-                            <span id="skills-items">Python</span>
-                            <span id="skills-items">|</span>
-                            <span id="skills-items">Web-Development</span>
-                            <span id="skills-items">|</span>
-                            <span id="skills-items">UI/UX </span>
-                    </div>
-                    <button class="know-more-btn">KNOW MORE</button>
+            <section class="landing-section">
+                <div class="me-section-left-wrapper">
+                  
+                        <p class="hello">Hello,</p>
+                        <p class="my-name">I'm Avinash Singh</p>
+                        <div class="my-skills-wrapper"> 
+                                <span id="skills-items">Android</span>
+                                <span id="skills-items">|</span>
+                                <span id="skills-items">Python</span>
+                                <span id="skills-items">|</span>
+                                <span id="skills-items">Web-Development</span>
+                                <span id="skills-items">|</span>
+                                <span id="skills-items">UI/UX </span>
+                        </div>
+                        <button class="know-more-btn"><a id="nav-items-link" href="/mySite/resume.html">KNOW MORE</a></button>
                 </div>
-                <div class="me-section-right">
+                <div class="me-section-right-wrapper">
                     <img id="undraw-image" src="/mySite/assets/img/me-section-right.svg" alt="Avinash Singh | SingAvi | Android Developer | Python Scriptor | Software Developer">
                 </div>
-            </div>
-
-            
+            </section>
+                
 
         </main>
-        
+         
+        <footer>
+
+            <div class="footer-social-links">
+                <button class="btn-links"><i class="fab fa-linkedin-in"></i></button>
+                <button class="btn-links" ><i class="fab fa-github"></i></button>
+
+            </div>
+        </footer>
     </body>
 </html>
