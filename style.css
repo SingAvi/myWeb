@@ -1,7 +1,7 @@
 body{
 
     margin: 0;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Poppins', sans-serif;
   
 
 }
@@ -15,11 +15,12 @@ body{
     padding-right : 24px;
     padding-bottom: 12px;
     color:white;
-    position: sticky;
+    position: fixed;
     top: 0;
     width: 100%;
     box-shadow: 0 4px 8px 0 rgba(184, 184, 184, 0.2), 0 6px 20px 0 rgba(134, 134, 134, 0.19);
     z-index: 1;
+    
     
     
 }
@@ -69,15 +70,21 @@ body{
 
 }
 
+main{
+    
+    position: relative;
+    top: 50px;
+}
+
 .landing-section{
 
     box-sizing: border-box;
-    margin-top: 50px;
+    margin-top: 120px;
     padding-top: 24px;
     padding-bottom: 24px;
     padding-left: 48px;
     padding-right: 48px;
-    vertical-align: top;
+    
     
     
 }
@@ -182,8 +189,6 @@ body{
 
 .footer-social-links{
 
-   
-    
     position: absolute  ;
     bottom: 0;
     right: 0;
@@ -193,11 +198,218 @@ body{
 
 .btn-links
 {
-    margin-top: 5px;
+  margin-top: 5px;
   background-color: #1E90FF;
   border: none;
   color: white;
   padding: 8px;
   border-radius: 50px;
 }
+
+.work{
+
+    box-sizing: border-box;
+    margin-top:55px;
+    background-color: #1e8fff0a;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-bottom: 25px;
+}
+.work-experience-header{
+
+    text-align: center;
+    font-size: 32px ;
+    margin: 0;
+    margin-bottom: 18px;
+}
+
+.work-experience-details
+{
+   text-align: center;
+
+  
+}
+
+
+.work-underline-header{
+
+    height: 3px;
+    width: 100px;
+    background-color: #1e8fff70;
+    border-radius: 5px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    
+}
+
+
+.work-experience-details > *{
+
+    vertical-align: middle;
+    margin-top: 48px;
+    margin-left: 22px;
+    margin-right: 22px ;
+    
+
+}
+
+.work-experience-details:hover .job-description-wrapper {
+
+    
+    background-color: #1E90FF;
+    color: white;
+
+}
+
+.work-experience-details:hover .circle {
+   
+    background-color: #1E90FF;
+    color: white;
+
+}
+/* Hovering Over Work */
+
+
+
+
+.company-details-wrapper
+{  
+    display: inline-block;
+    width: 400px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+     
+    
+}
+
+#company-name{
+
+    font-size: 22px;
+    color: #031d38;
+    font-weight: bold;
+    line-height: 6px;
+    letter-spacing: 1px;
+    
+   
+}
+
+#company-role{
+
+    font-size: 18px;
+    color: #1E90FF;
+    
+   
+}
+
+
+#company-duration{
+
+    font-size: 16px;
+    line-height: 4px;
+    color: rgb(85, 85, 85);
+    
+    
+   
+}
+
+
+
+.circle
+{   
+
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    color: #1E90FF;
+    border-radius: 50%;
+    position: relative;
+    border:1px solid #1E90FF;
+}
+
+#number
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    
+
+}
+
+.job-description-wrapper
+{
+    background-color: white;
+    display: inline-block;
+    width: 400px;
+    text-align: left;
+    border-radius: 4px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+#job-description
+{
+   font-size: 14px;
+}
+
+
+
+.social-links{
+
+    margin-top: 36px;
+    text-align: center;
+    
+    
+}
+
+.social-links-img{
+
+    margin-left: 8px;
+    margin-right: 8px;
+    color: rgb(170, 169, 169);
+}
+
+.social-links-img:hover{
+
+   
+    color: #1E90FF;
+}
+
+.pen-name{
+
+    text-align: center;
+    color: #031629;
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 2px;
+}
+
+.pen-name:hover{
+
+    color: #1E90FF;
+}
+
+.footer-email{
+
+    text-align: center;
+    color: #031d38;
+
+}
+
+.made-with-love{
+
+    text-align: center;
+}
+
+
+
 
