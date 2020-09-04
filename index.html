@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 
 <html>
+
     <head>
         <title>SingAvi</title>
         <link href="./style.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" type="text/css" media="screen and (max-width: 360px)" href="./mobile-style.css">
+        <meta property="og:title" content="SingAvi | Developer" />
+        <meta property="og:type" content="Personal" />
+        <meta property="og:url" content="https://singavi.netlify.app/" />
+        <meta property="og:image" content="https://image.flaticon.com/icons/svg/3430/3430235.svg" />
         <link rel="icon" href="https://image.flaticon.com/icons/svg/3430/3430235.svg">
         <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/f004e24aab.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
        
     </head> 
@@ -27,19 +34,20 @@
 
             <section class="landing-section">
                 <div class="me-section-left-wrapper">
-                  
-                        <p class="hello">Hello,</p>
-                        <p class="my-name">I'm Avinash Singh</p>
-                        <div class="my-skills-wrapper"> 
-                                <span id="skills-items">Android</span>
-                                <span id="skills-items">|</span>
-                                <span id="skills-items">Python</span>
-                                <span id="skills-items">|</span>
-                                <span id="skills-items">Web-Development</span>
-                                <span id="skills-items">|</span>
-                                <span id="skills-items">UI / UX </span>
+                        <div class="section-left-content-wrapper">
+                            <p class="hello">Hello,</p>
+                            <p class="my-name">I'm Avinash Singh</p>
+                            <div class="my-skills-wrapper"> 
+                                    <span id="skills-items">Android</span>
+                                    <span id="skills-items">|</span>
+                                    <span id="skills-items">Python</span>
+                                    <span id="skills-items">|</span>
+                                    <span id="skills-items">Web-Development</span>
+                                    <span id="skills-items">|</span>
+                                    <span id="skills-items">UI / UX </span>
+                            </div>
+                            <button class="know-more-btn"><a id="nav-items-link" href="./resume.html">KNOW MORE</a></button>
                         </div>
-                        <button class="know-more-btn"><a id="nav-items-link" href="./resume.html">KNOW MORE</a></button>
                 </div>
                 <div class="me-section-right-wrapper">
                     <img id="undraw-image" src="./assets/img/me-section-right.svg" alt="Avinash Singh | SingAvi | Android Developer | Python Scriptor | Software Developer">
@@ -118,12 +126,15 @@
                 </div>
                 
                 <div class="work-experience-details">
-                    <article class="job-description-wrapper">
-                        <p id="job-description">       
-                            Assigned Personal Wealth Management Department where I was responsible for automating their hefty datasets for predictions as well areas where a customer can reduce their expenses through monitoring their bank statements by scraping it to a categorised data.
-                            Even I had a chance to work with people experienced with Algotrading.
-                        </p>                     
-                    </article>
+
+                    <div>
+                        <article class="job-description-wrapper">
+                            <p id="job-description">       
+                                Assigned Personal Wealth Management Department where I was responsible for automating their hefty datasets for predictions as well areas where a customer can reduce their expenses through monitoring their bank statements by scraping it to a categorised data.
+                                Even I had a chance to work with people experienced with Algotrading.
+                            </p>                     
+                        </article>
+                    </div>
 
                     
                         <div class="circle">
@@ -131,7 +142,7 @@
                         </div>
                     
 
-                    <div style="text-align: left;" class="company-details-wrapper">
+                    <div class="company-details-wrapper">
                         <p id="company-name">NK Securities</p>
                         <p id="company-role">Python Developer</p>
                         <p id="company-duration">JULY 2019 - December 2019</p>
