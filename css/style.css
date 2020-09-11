@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+
+}
 body{
 
     margin: 0;
@@ -43,12 +47,19 @@ body{
     color :white;
     align-items: center;
     
+    
 }
 
 #menu-items{
 
     margin-right: 16px;
     margin-left:16px;
+}
+
+#menu-items a{
+
+    text-decoration: none;
+    color: white;
 }
 
 /* ---------------------------NAV BAR END ----------------------- */
@@ -366,7 +377,6 @@ footer{
 
 .Claim-To-Fame{
 
-    height: 100%;
     margin-top: 30px;
     margin-bottom: 30px;
 
@@ -382,14 +392,11 @@ footer{
     display: grid;
     grid-template-areas: 'android python web uiux';
     padding: 18px;
+    justify-content: space-around;
     text-align: center;
     align-items: center;
    
-    
-   
-    
-    
-   
+ 
 }
 
 .android{
@@ -400,10 +407,10 @@ footer{
     justify-content: center;
     box-sizing: border-box;
     grid-area: android;
-    width: 350px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     margin: 0;
-    padding: 0;
+  
     padding: 18px 36px 18px 36px;
    transition: all .5s ease;
     background-color:  #1E90FF;
@@ -412,7 +419,7 @@ footer{
 
 .android:hover #skill-img{
 
-    transform: scale(1.1);
+    transform: scale(1.5);
     color: #1E90FF;
    
 }
@@ -433,6 +440,7 @@ footer{
 
     color: white;
     transition: all 1s ease;
+    font-size: 50px;
     
 }
 
@@ -453,10 +461,10 @@ footer{
     justify-content: center;
     box-sizing: border-box;
     grid-area: python;
-    height: 400px;
-    width: 350px;
+    width: 300px;
+    height: 300px;
     margin: 0;
-    padding: 0;
+   
     padding: 18px 36px 18px 36px;
     transition: all .5s ease;
     background-color:  #1E90FF;
@@ -466,7 +474,7 @@ footer{
 
 .python:hover #skill-img{
 
-    transform: scale(1.1);
+    transform: scale(1.5);
     color: #1E90FF;
    
 }
@@ -490,10 +498,11 @@ footer{
     justify-content: center;
     box-sizing: border-box;
     grid-area: web;
-    height:400px;
-    width: 350px;
+    width: 300px;
+    height: 300px;
     margin: 0;
     padding: 0;
+   
     padding: 18px 36px 18px 36px;
     transition: all .5s ease;
     background-color:  #1E90FF;
@@ -502,7 +511,7 @@ footer{
 
 .web:hover #skill-img {
 
-    transform: scale(1.1);
+    transform: scale(1.5);
     color: #1E90FF;
    
 }
@@ -525,10 +534,11 @@ footer{
     justify-content: center;
     box-sizing: border-box;
     grid-area: uiux;
-    height: 400px;
-    width: 350px;
+    width: 300px;
+    height: 300px;
     margin: 0;
     padding: 0;
+   
     padding: 18px 36px 18px 36px;
     transition: all .5s ease;
     background-color:  #1E90FF;
@@ -541,7 +551,7 @@ footer{
 
 .uiux:hover #skill-img{
 
-    transform: scale(1.1);
+    transform: scale(1.5);
     color: #1E90FF;
 }
 
