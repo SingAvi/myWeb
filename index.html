@@ -4,272 +4,194 @@
 
     <head>
         <title>SingAvi</title>
-        <link href="./style.css" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" type="text/css" media="screen and (max-width: 360px)" href="./mobile-style.css">
-        <meta property="og:title" content="SingAvi | Developer" />
-        <meta property="og:type" content="Personal" />
-        <meta property="og:url" content="https://singavi.netlify.app/" />
-        <meta property="og:image" content="https://image.flaticon.com/icons/svg/3430/3430235.svg" />
+        <link href="./css/style.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" type="text/css" media="screen and (max-width: 400px)" href="./css/mobile.css">
+        <meta property="og:title" content="Avinash Singh Personal Website">
+        <meta property="og:description" content="SingAvi | Software Developer">
+        <meta property="og:image" content="./assets/img/me-section-right">
+        <meta property="og:url" content="https://singavi.netlify.app">
         <link rel="icon" href="https://image.flaticon.com/icons/svg/3430/3430235.svg">
         <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/f004e24aab.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/9e0466866d.js" crossorigin="anonymous"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
        
     </head> 
     <body>
 
-        <header>
-            <div class="top-bar">
-                <span id="logoText">SingAvi</span>
-                <div class="top-bar-items">
-                    <span id="nav-items"><a id="nav-items-link" href="">Home</a></span>
-                    <span id="nav-items"><a id="nav-items-link" href="">Work</a></span>
-                    <span id="nav-items"><a id="nav-items-link" href="">Projects</a></span>
-                    <span id="nav-items"><a id="nav-items-link" href="">Contacts</a></span>
+        <header id="top-bar">
+            <nav id="nav-bar">
+                <p id="Logo">SingAvi</p>
+                <div class="right-menu">
+                    <p id="menu-items">Home</p>
+                    <p id="menu-items">Work</p>
+                    <p id="menu-items">Projects</p>
+                    <p id="menu-items">Contact</p>
                 </div>
-            </div>
+            </nav>
+           
         </header>
 
-            <section class="landing-section">
-                <div class="me-section-left-wrapper">
-                        <div class="section-left-content-wrapper">
-                            <p class="hello">Hello,</p>
-                            <p class="my-name">I'm Avinash Singh</p>
-                            <div class="my-skills-wrapper"> 
-                                    <span id="skills-items">Android</span>
-                                    <span id="skills-items">|</span>
-                                    <span id="skills-items">Python</span>
-                                    <span id="skills-items">|</span>
-                                    <span id="skills-items">Web-Development</span>
-                                    <span id="skills-items">|</span>
-                                    <span id="skills-items">UI / UX </span>
-                            </div>
-                            <button class="know-more-btn"><a id="nav-items-link" href="./resume.html">KNOW MORE</a></button>
-                        </div>
-                </div>
-                <div class="me-section-right-wrapper">
-                    <img id="undraw-image" src="./assets/img/me-section-right.svg" alt="Avinash Singh | SingAvi | Android Developer | Python Scriptor | Software Developer">
-                </div>
-            </section>
+        <main>
 
-            <section class="work">
-                <h2 class="work-experience-header">Work Experience</h2>
-                <div class="work-underline-header"></div>
-                <div class="work-experience-details">
-                    <div style="text-align: right;" class="company-details-wrapper">
+            <div class="landing-section-container">
+
+                <div class="landing-left-section">
+                    <p id="hello">Hello,</p>
+                    <p id="name">I'm Avinash Singh</p>
+                    <p id="niche">Android | Python | Web-Dev | UI / UX</p>
+                    <button id="know-more">KNOW MORE</button>
+                </div>
+
+                <div class="landing-right-section">
+                    <img src="./assets/img/me-section-right.svg" alt="Avinash Singh | SingAvi | Software Developer">
+                </div>
+            </div>
+
+            <section class="work-experience">
+
+                <h2 class="header">Work Experience</h2>
+                
+                <article class="work-1">
+
+                    <div class="work-place-details-1">
                         <p id="company-name">StoreKey</p>
                         <p id="company-role">Android Developer Intern</p>
                         <p id="company-duration">Jan 2018 - December 2018</p>
                     </div>
-
-                    
-                        <div class="circle">
-                            <h3 id="number">1</h3>
-                        </div>
-                   
-
-                    <article class="job-description-wrapper">
+                    <div class="circle">
+                        <h3 id="number">1</h3>
+                    </div>
+                    <div class="work-place-desc-1">
                         <p id="job-description">       
                             Deployed the company’s android application and worked on API and payment gateway. 
                             Also deployed a script by python, scraping over the data by the wholesaler’s database and Indian Government Wholesale Market Online. 
-                        </p>                     
-                    </article>
-                </div>
+                        </p>  
+                    </div>
 
-                <div class="work-experience-details">
-                    <article class="job-description-wrapper">
+                </article>
+
+                <article class="work-2">
+
+                    <div class="work-place-desc-2">
                         <p id="job-description">       
                             Developed Facial Recognition Model under the guidance of Tata Steel A.I Department using classifiers and harrcascade xmls, 
                             the tough nut to crack was bringing accuracy among multiple faces.
                             The backend was purely dependent on OpenCv.
-                            Python was choosen as the programming language as it had integration of third party libraries that provided better accuracy for face detections.
-                           
+                            Python was choosen as the programming language as it had integration of third party libraries that provided better accuracy for face detections.  
                         </p>                     
-                    </article>
-
+                    </div>
                     
-                        <div class="circle">
-                            <h3 id="number">2</h3>
-                        </div>
-                   
-
-                    <div style="text-align: left;" class="company-details-wrapper">
+                    <div class="circle">
+                        <h3 id="number">2</h3>
+                    </div>
+                    
+                    <div class="work-place-details-2">
                         <p id="company-name">Tata Steel</p>
                         <p id="company-role">Python Developer Intern</p>
-                        <p id="company-duration">January 2019 - February 2019</p>
+                        <p id="company-duration">Jan 2019 - Feb 2019</p>
                     </div>
-                </div>
 
-                 <div class="work-experience-details">
-                    <div style="text-align: right;" class="company-details-wrapper">
+                </article>
+
+                <article class="work-1">
+
+                    <div class="work-place-details-1">
                         <p id="company-name">GigIndia</p>
                         <p id="company-role">UI / UX Intern</p>
                         <p id="company-duration">March 2019 - May 2019</p>
                     </div>
-
-                   
+                
                         <div class="circle">
                             <h3 id="number">3</h3>
                         </div>
-                    
-
-                    <article class="job-description-wrapper">
+                
+                    <div class="work-place-desc-1">
                         <p id="job-description">       
                             Designed GigIndia’s new portal following design prinicples of google material design.
                             Adobe XD,Figma as well as basic JavaScript was the stack used to finally make the website,
-                            Mockups were the first thing to work on follwed by the actual design.
-
+                            Mockups were the first thing to work on follwed by the actual design.                
                         </p>                     
-                    </article>
-                </div>
-                
-                <div class="work-experience-details">
+                    </div>
+                </article>
+ 
+                <article class="work-2">
 
-                    <div>
-                        <article class="job-description-wrapper">
-                            <p id="job-description">       
-                                Assigned Personal Wealth Management Department where I was responsible for automating their hefty datasets for predictions as well areas where a customer can reduce their expenses through monitoring their bank statements by scraping it to a categorised data.
-                                Even I had a chance to work with people experienced with Algotrading.
-                            </p>                     
-                        </article>
+                    <div class="work-place-desc-2">
+                        <p id="job-description">       
+                            Assigned Personal Wealth Management Department where I was responsible for automating their hefty datasets for predictions as well areas where a customer can reduce their expenses through monitoring their bank statements by scraping it to a categorised data.
+                            Even I had a chance to work with people experienced with Algotrading.
+                        </p>                     
                     </div>
 
-                    
-                        <div class="circle">
-                            <h3 id="number">4</h3>
-                        </div>
-                    
+                    <div class="circle">
+                        <h3 id="number">4</h3>
+                    </div>
 
-                    <div class="company-details-wrapper">
+                    <div class="work-place-details-2">
                         <p id="company-name">NK Securities</p>
                         <p id="company-role">Python Developer</p>
                         <p id="company-duration">JULY 2019 - December 2019</p>
                     </div>
-                </div>
+                </article>              
+    
             </section>
 
-            <section class="claim-to-fame"> 
-                 <h2 class="claim-to-fame-header">Claim To Fame</h2>
-                <div class="claim-to-fame-underline"></div>
+            <section class="Claim-To-Fame">
 
-                <div class="card-wrapper">
+                <h2>Claim To Fame</h2>
+                <div class="fame-container">
+                    <div class="android">
 
-                    <div class="card">
-                        <div class="img-avatar">
-                            <img class="img" src="./assets/img/android.svg" alt="">
-                        </div>
-                        <div class="card-text">
+                        <span id="skill-img"><i class="fab fa-android fa-7x"></i></i></span>
+                        <h3 id="skill-name">Android</h3>
+                        
+                    </div>
+                    <div class="python">
 
-                            <div class="left-section"></div>
-                            
-                            <div class="title-total">   
-                                <h2>Android</h2>
-                            
-                                <div class="desc">
-                                    Morgan has collected ants since they were six years
-                                    old and now has many dozen ants but none in their pants.
-                                </div>
+                        <span id="skill-img"><i class="fab fa-python fa-7x"></i></span>
+                        <h3 id="skill-name">Python</h3>
+                    </div>
+                    <div class="web"> 
 
-                                <div class="actions">
-                                    <a href="https://github.com/SingAvi?tab=repositories&q=&type=&language=java"><i class="fab fa-github fa-2x"></i></a> 
-                                </div>
-                            </div>
-                        </div> 
-                    </div>   
-                    
-                    <div class="card">
-                        <div class="img-avatar">
-                            <img class="img" src="./assets/img/python.png" alt="">
-                        </div>
-                        <div class="card-text">
+                        <span id="skill-img"><i class="fas fa-code fa-7x    "></i></span>
+                        <h3 id="skill-name">Web Dev</h3>
 
-                            <div class="left-section"></div>
-                            
-                            <div class="title-total">   
-                                <h2>Python</h2>
-                            
-                                <div class="desc">
-                                    Morgan has collected ants since they were six years
-                                    old and now has many dozen ants but none in their pants.
-                                </div>
+                    </div>
 
-                                <div class="actions">
-                                   <a href="https://github.com/SingAvi?tab=repositories&q=&type=&language=java"><i class="fab fa-github fa-2x"></i></a> 
-                                </div>
-                            </div>
-                        </div> 
-                    </div> 
+                    <div class="uiux">
+                        <span id="skill-img"><i class="fas fa-magic fa-7x   "></i></span>
+                        <h3 id="skill-name">UI / UX</h3>
 
-                    <div class="card">
-                        <div class="img-avatar">
-                            <img class="img" src="./assets/img/web.svg" alt="">
-                        </div>
-                        <div class="card-text">
-
-                            <div class="left-section"></div>
-                            
-                            <div class="title-total">   
-                                <h2>Web Dev</h2>
-                            
-                                <div class="desc">
-                                    Morgan has collected ants since they were six years
-                                    old and now has many dozen ants but none in their pants.
-                                </div>
-
-                                <div class="actions">
-                                    <a href="https://github.com/SingAvi?tab=repositories&q=&type=&language=java#target=._blank"><i class="fab fa-github fa-2x"></i></a> 
-                                </div>
-                            </div>
-                        </div> 
-                    </div> 
-
-                    <div class="card">
-                        <div class="img-avatar">
-                            <img class="img" src="./assets/img/design.svg" alt="">
-                        </div>
-                        <div class="card-text">
-    
-                            <div class="left-section"></div>
-                            
-                            <div class="title-total">   
-                                <h2>UI / UX </h2>
-                            
-                                <div class="desc">
-                                    Morgan has collected ants since they were six years
-                                    old and now has many dozen ants but none in their pants.
-                                </div>
-    
-                                <div class="actions">
-                                    <a href="https://dribbble.com/SingAvi"><i class="fas fa-magic fa-2x"></i></a> 
-                                </div>
-                            </div>
-                        </div> 
-                    </div> 
-
+                    </div>
                 </div>
 
-               
-
             </section>
+
+
+        </main>
+           
 
            
 
-            <footer style="background-color: rgb(236, 236, 236); margin-top: 28px; padding-top: 36px; padding-bottom: 36px;">
+           
 
-                <h3 class="pen-name">SingAvi</h3>
-                    <div class="social-links">
-                        <span class="social-links-img"><i class="fab fa-facebook fa-2x"></i></span>
-                        <span class="social-links-img"><i class="fab fa-linkedin fa-2x"></i></span>
-                        <span class="social-links-img"><i class="fab fa-github fa-2x"></i></span>
-                    </div> 
-                    <h1 class="footer-email">desci.avinash@gmail.com</h1>  
-                    <div class="made-with-love">
-                        <span>Made with</span>
-                        <span style="color: red;">♥</span>
-                        <span>By SingAvi</span>
-                    </div> 
+        <footer>
+
+            <h3 class="pen-name">SingAvi</h3>
+
+                <div class="social-links">
+                    <span class="social-links-img"><i class="fab fa-facebook fa-2x"></i></span>
+                    <span class="social-links-img"><i class="fab fa-linkedin fa-2x"></i></span>
+                    <span class="social-links-img"><i class="fab fa-github fa-2x"></i></span>
+                </div> 
+                <h1 class="footer-email">desci.avinash@gmail.com</h1>  
+                <div class="made-with-love">
+                    <span>Made with</span>
+                    <span style="color: red;">♥</span>
+                    <span>By SingAvi</span>
+                </div> 
         </footer>
     </body>
 </html> 

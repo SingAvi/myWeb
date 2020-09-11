@@ -1,0 +1,507 @@
+@media only screen and (max-width: 400px) 
+{
+    body{
+
+        width: 100vw;
+        
+       
+        
+    }
+    /* Nav Bar */
+
+    
+    
+    #top-bar{
+    
+        width: 100vw;
+        background-color: #1E90FF;
+        position: fixed;
+        top: 0;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        
+        
+    
+    }
+    
+    #Logo{
+    
+       
+        color: white;
+        font-family: 'Pacifico', cursive;
+        font-size: 18px;
+        letter-spacing: 2px;
+        padding: 4px;
+        margin-left: 24px;
+    }
+    
+    .right-menu{
+    
+        display: none;
+           
+    }
+    
+
+    /* Nav Bar */
+
+    /* Landing Section */
+
+
+    .landing-section-container{
+
+        width: 100%;
+    
+        
+    }
+    
+    .landing-left-section{
+    
+        width: 100%;
+        height: 100vh;
+        display: flex;
+      
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center; 
+        text-align: center;
+    }
+    
+    #hello{
+    
+        font-size: 22px;
+        color: #1E90FF;
+        margin: 0;
+        text-shadow: 1px 2px 3px rgb(206, 206, 206);
+        margin-bottom: 18px;
+    
+    }
+    
+    #name{
+    
+        font-size: 28px;
+        margin: 0;
+        text-shadow: 2px 3px 3px rgb(206, 206, 206);
+        font-weight: bold;
+        margin-bottom: 14px;
+    }
+    
+    #niche{
+    
+        font-size: 16px;
+        color : rgb(104, 104, 104);
+        font-weight: 300;
+        margin: 0;
+        margin-bottom: 36px;
+    }
+    
+    #know-more{
+    
+        background-color: #1E90FF;
+        border: none;
+        outline: none;
+        width: 35%;
+        padding: 10px 18px 10px 18px;
+        border-radius: 3px;
+        color: white;
+        font-size: 12px;
+    
+    }
+    
+    .landing-right-section{
+    
+        
+        display: none;
+        
+    }
+
+    .landing-right-section img{
+
+        width: 0%;
+    }
+
+
+    /* --------------------------- WORK EXPERIENCE START ------------- */
+
+    .work-experience{
+
+        width: 100vw;
+        box-sizing: border-box;
+        background-color: #1e8fff18;
+        padding: 16px 12px 16px 12px;
+        align-items: flex-start;
+        
+       
+    }
+
+    .header {
+       
+        margin-bottom: 20px;
+        font-size: 22px;  
+        
+    }
+    .work-1{
+
+        
+        padding: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 18px; 
+       
+    }
+
+    .work-place-details-1{
+
+        
+        
+        width: 100%;
+        padding: 6px;
+        text-align: start;
+    }
+
+    #company-name{
+
+        color: #1E90FF ;
+        font-size: 18px;
+        margin: 0;
+        margin-bottom: 6px;
+    }
+
+    #company-role{
+
+        color: black;
+        font-size: 14px;
+        margin: 0;
+        margin-bottom: 4px;
+    }
+
+    #company-duration{
+
+        color: rgb(128, 128, 128);
+        font-size: 12px ;
+        margin: 0;
+    }
+
+    .circle{
+
+    display: none;
+        
+    }
+
+    .work-place-desc-1{
+
+        box-sizing: border-box;
+        width: 100%;
+        font-size: 12px;
+        padding: 8px ;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px rgb(197, 197, 197) ;
+        background-color: white;
+    
+    }
+
+    .work-2{
+
+        display: flex;
+        padding: 0;
+        width: 100%;
+        flex-direction: column-reverse;
+        margin-bottom: 18px;
+    }
+
+    .work-place-details-2{
+
+        
+        width: 100%;
+        padding: 6px ;
+        text-align: start;
+
+        
+    }
+
+    .work-place-desc-2{
+
+        width: 100%;
+        font-size: 12px;
+        box-sizing: border-box;
+        border-radius: 8px;
+        box-shadow: 2px 2px 2px rgb(197, 197, 197) ;
+        background-color: white;
+        
+    }
+
+
+/* -----------------------WORK WXPERIENCE END ---------------------- */
+
+
+  /* ------------------------------------ FOOTER START ----------------------------------------------- */
+
+  footer{
+
+    width: 100%;
+    background-color: rgb(236, 236, 236); 
+    margin-top: 28px; 
+    
+    
+}
+.social-links{
+
+   
+    text-align: center;
+    
+    
+}
+
+.social-links-img{
+
+    margin-left: 8px;
+    margin-right: 8px;
+    color: rgb(170, 169, 169);
+}
+
+.social-links-img:hover{
+
+   
+    color: #1E90FF;
+}
+
+.pen-name{
+
+    text-align: center;
+    color: #031629;
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+.pen-name:hover{
+
+    color: #1E90FF;
+}
+
+.footer-email{
+
+    text-align: center;
+    color: #031d38;
+    font-size: 18px;
+
+}
+
+.made-with-love{
+
+    text-align: center;
+}
+
+
+/* ----------------------------------- FOOTER END ------------------------------- */
+   
+
+    
+/* ----------------------------------- CLAIM TO FAME START ---------------------------- */
+
+.Claim-To-Fame{
+
+    height: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 16px 12px 16px 12px;
+
+    
+    
+
+}
+
+.Claim-To-Fame h2{
+
+    font-size: 22px;
+    text-align: start;
+}
+.fame-container{
+
+    display: grid;
+    grid-template-areas: 'android'
+                            'python'
+                            'web'
+                            'uiux';
+    text-align: center;
+    align-items: center;
+    justify-content: center;  
+}
+
+
+.android{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    grid-area: android;
+    width: 350px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    padding: 18px 36px 18px 36px;
+    transition: all .5s ease;
+    background-color:  #1E90FF;
+    margin-bottom: 12px;
+    
+}
+
+.android:hover #skill-img{
+
+    transform: scale(1.1);
+    color: #1E90FF;
+    
+   
+}
+
+.android:hover #skill-name{
+
+    color: #1E90FF;
+}
+
+.android:hover{
+
+   
+    background-color: white;
+}
+
+
+#skill-img{
+
+    color: white;
+    transition: all 1s ease;
+    margin: 0;
+    
+}
+
+#skill-name{
+
+    color: white;
+    font-size: 42px;
+    font-weight: 500;
+    margin: 0   ;
+    
+
+}
+
+.python{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    grid-area: python;
+    height: 200px;
+    width: 350px;
+    margin: 0;
+    padding: 0;
+    padding: 18px 36px 18px 36px;
+    transition: all .5s ease;
+    background-color:  #1E90FF;
+    margin-bottom: 12px;
+      
+    
+}
+
+.python:hover #skill-img{
+
+    transform: scale(1.1);
+    color: #1E90FF;
+   
+}
+
+.python:hover #skill-name{
+
+    color: #1E90FF;
+}
+
+.python:hover{
+
+    background-color: white;
+
+}
+
+.web{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    grid-area: web;
+    height:200px;
+    width: 350px;
+    margin: 0;
+    padding: 0;
+    padding: 18px 36px 18px 36px;
+    transition: all .5s ease;
+    background-color:  #1E90FF;
+    margin-bottom: 12px;
+    
+}
+
+.web:hover #skill-img {
+
+    transform: scale(1.1);
+    color: #1E90FF;
+   
+}
+
+.web:hover #skill-name{
+
+    color: #1E90FF;
+}
+
+.web:hover{
+
+    background-color: white;
+}
+
+.uiux{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    grid-area: uiux;
+    height: 200px;
+    width: 350px;
+    margin: 0;
+    padding: 0;
+    padding: 18px 36px 18px 36px;
+    transition: all .5s ease;
+    background-color:  #1E90FF;
+    margin-bottom: 12px;
+    
+    
+}
+
+.uiux:hover{
+    background-color: white;
+}
+
+.uiux:hover #skill-img{
+
+    transform: scale(1.1);
+    color: #1E90FF;
+    
+}
+
+.uiux:hover #skill-name{
+
+    color: #1E90FF;
+}
+ 
+ /* ------------------------------------ CLAIM TO FAME END ----------------------------- */
+
+
+
+
+}
