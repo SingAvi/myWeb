@@ -126,6 +126,16 @@ body{
 
 }
 
+#know-more:hover{
+    filter: brightness(110%);
+}
+
+#know-more a{
+
+    color: white;
+    text-decoration: none;
+}
+
 .landing-right-section{
 
 
@@ -375,189 +385,5 @@ footer{
 /* ----------------------------------- CLAIM TO FAME START ---------------------------- */
 
 
-.Claim-To-Fame{
-
-    margin-top: 30px;
-    margin-bottom: 30px;
-
-}
-
-.Claim-To-Fame h2{
-
-    text-align: center;
-    font-size: 32px;
-}
-.fame-container{
-
-    display: grid;
-    grid-template-areas: 'android python web uiux';
-    padding: 18px;
-    justify-content: space-around;
-    text-align: center;
-    align-items: center;
-   
- 
-}
-
-.android{
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
-    grid-area: android;
-    width: 300px;
-    height: 300px;
-    margin: 0;
-  
-    padding: 18px 36px 18px 36px;
-   transition: all .5s ease;
-    background-color:  #1E90FF;
-    
-}
-
-.android:hover #skill-img{
-
-    transform: scale(1.5);
-    color: #1E90FF;
-   
-}
-
-.android:hover #skill-name{
-
-    color: #1E90FF;
-}
-
-.android:hover{
-
-   
-    background-color: white;
-}
-
-
-#skill-img{
-
-    color: white;
-    transition: all 1s ease;
-    font-size: 50px;
-    
-}
-
-#skill-name{
-
-    color: white;
-    font-size: 42px;
-    font-weight: 500;
-    
-
-}
-
-.python{
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
-    grid-area: python;
-    width: 300px;
-    height: 300px;
-    margin: 0;
-   
-    padding: 18px 36px 18px 36px;
-    transition: all .5s ease;
-    background-color:  #1E90FF;
-      
-    
-}
-
-.python:hover #skill-img{
-
-    transform: scale(1.5);
-    color: #1E90FF;
-   
-}
-
-.python:hover #skill-name{
-
-    color: #1E90FF;
-}
-
-.python:hover{
-
-    background-color: white;
-
-}
-
-.web{
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
-    grid-area: web;
-    width: 300px;
-    height: 300px;
-    margin: 0;
-    padding: 0;
-   
-    padding: 18px 36px 18px 36px;
-    transition: all .5s ease;
-    background-color:  #1E90FF;
-    
-}
-
-.web:hover #skill-img {
-
-    transform: scale(1.5);
-    color: #1E90FF;
-   
-}
-
-.web:hover #skill-name{
-
-    color: #1E90FF;
-}
-
-.web:hover{
-
-    background-color: white;
-}
-
-.uiux{
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
-    grid-area: uiux;
-    width: 300px;
-    height: 300px;
-    margin: 0;
-    padding: 0;
-   
-    padding: 18px 36px 18px 36px;
-    transition: all .5s ease;
-    background-color:  #1E90FF;
-    
-}
-
-.uiux:hover{
-    background-color: white;
-}
-
-.uiux:hover #skill-img{
-
-    transform: scale(1.5);
-    color: #1E90FF;
-}
-
-.uiux:hover #skill-name{
-
-    color: #1E90FF;
-}
 
 /* ------------------------------------ CLAIM TO FAME END ----------------------------- */

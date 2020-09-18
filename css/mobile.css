@@ -1,4 +1,4 @@
-@media only screen and (max-width: 400px) 
+@media only screen and (max-width: 420px) 
 {
     html{
 
@@ -20,7 +20,7 @@
     
     #top-bar{
     
-        width: 100vw;
+        width: 100%;
         background-color: #1E90FF;
         position: fixed;
         top: 0;
@@ -41,8 +41,8 @@
         font-family: 'Pacifico', cursive;
         font-size: 18px;
         letter-spacing: 2px;
-        padding: 4px;
-        margin-left: 24px;
+        padding: 6  px;
+        margin-left: 0px;
     }
     
     .right-menu{
@@ -61,7 +61,7 @@
     .landing-section-container{
 
         width: 100vw;
-        background-image: url('/mySite/assets/img/me-section-right.svg');
+      
         
        
     
@@ -118,8 +118,11 @@
         border-radius: 3px;
         color: white;
         font-size: 12px;
+       
     
     }
+
+    
     
     .landing-right-section{
     
@@ -138,10 +141,10 @@
 
     .work-experience{
 
-        width: 100vw;   
+        
         box-sizing: border-box;
         background-color: #1e8fff18;
-        padding: 16px 12px 16px 12px;
+        padding: 8px;
         align-items: flex-start;
         
        
@@ -158,19 +161,70 @@
         
         padding: 0;
         width: 100%;
+        box-sizing: border-box;
         display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
         flex-direction: column;
         margin-bottom: 18px; 
        
     }
 
+    
+    .work-2{
+
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        width: 100%;
+        box-sizing: border-box;
+        flex-direction: column-reverse;
+        margin-bottom: 18px;
+    }
+
     .work-place-details-1{
 
-        
-        
         width: 100%;
         padding: 6px;
+        box-sizing: border-box;
         text-align: start;
+    }
+
+    .work-place-details-2{
+
+        
+        width: 100%;
+        padding: 6px ;
+        text-align: start;
+        box-sizing: border-box;
+
+        
+    }
+
+    
+
+    .work-place-desc-1{
+
+        box-sizing: border-box;
+        width: 100%;
+        font-size: 12px;
+        padding: 8px ;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px rgb(197, 197, 197) ;
+        background-color: white;
+    
+    }
+
+    .work-place-desc-2{
+
+        box-sizing: border-box;
+        width: 100%;
+        font-size: 12px;
+        border-radius: 8px;
+        padding: 8px;
+        box-shadow: 2px 2px 2px rgb(197, 197, 197) ;
+        background-color: white;
+        
     }
 
     #company-name{
@@ -202,47 +256,10 @@
         
     }
 
-    .work-place-desc-1{
 
-        box-sizing: border-box;
-        width: 100%;
-        font-size: 12px;
-        padding: 8px ;
-        border-radius: 5px;
-        box-shadow: 2px 2px 2px rgb(197, 197, 197) ;
-        background-color: white;
+   
+
     
-    }
-
-    .work-2{
-
-        display: flex;
-        padding: 0;
-        width: 100%;
-        flex-direction: column-reverse;
-        margin-bottom: 18px;
-    }
-
-    .work-place-details-2{
-
-        
-        width: 100%;
-        padding: 6px ;
-        text-align: start;
-
-        
-    }
-
-    .work-place-desc-2{
-
-        width: 100%;
-        font-size: 12px;
-        box-sizing: border-box;
-        border-radius: 8px;
-        box-shadow: 2px 2px 2px rgb(197, 197, 197) ;
-        background-color: white;
-        
-    }
 
 
 /* -----------------------WORK WXPERIENCE END ---------------------- */
@@ -254,8 +271,8 @@
 
     width: 100vw;
     background-color: rgb(236, 236, 236); 
-    margin-top: 28px; 
-    
+    margin-top: 14px; 
+    padding-top: 18px;
     
 }
 .social-links{
@@ -313,205 +330,8 @@
     
 /* ----------------------------------- CLAIM TO FAME START ---------------------------- */
 
-.Claim-To-Fame{
-
-    
-    width: 100%;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    box-sizing: border-box;
-    padding: 16px 12px 16px 12px;
-    
-  
-
-}
-
-.Claim-To-Fame h2{
-
-    font-size: 22px;
-    text-align: start;
-}
-.fame-container{
 
 
-    display: grid;
-    grid-template-areas: 'android'
-                            'python'
-                            'web'
-                            'uiux';
-    justify-content: center;
-    box-sizing: border-box;
-   
-   
-    
-    
-}
-
-
-.android{
-
-    display: flex;
-    flex-direction: row;
-    
-    justify-content: flex-start;
-    grid-area: android;
-    width: 350px;
-    height: 100px;
-    padding: 8px;
-    
-    transition: all .5s ease;
-    background-color:  #1E90FF;
-    margin-bottom: 12px;
-    
-    
-}
-
-.android:hover #skill-img{
-
-    transform: scale(1.1);
-    color: #1E90FF;
-    
-   
-}
-
-.android:hover #skill-name{
-
-    color: #1E90FF;
-   
-    
-}
-
-.android:hover{
-
-   
-    background-color: white;
-}
-
-
-#skill-img{
-
-    color: white;
-    transition: all 1s ease;
-    margin: 0;
-    font-size: 35px;
-    padding: 12px;
-    
-    
-}
-
-#skill-name{
-
-    color: white;
-    font-size: 28px;
-    font-weight: 500;
-    padding: 12px;
-    
-    
-    
-
-}
-
-.python{
-
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    box-sizing: border-box;
-    grid-area: python;
-    height: 100px;
-    width: 350px;
-    padding: 8px;
-    transition: all .5s ease;
-    /* background-color:  #1E90FF; */
-    margin-bottom: 12px;
-      
-    
-}
-
-.python:hover #skill-img{
-
-    transform: scale(1.1);
-    color: #1E90FF;
-   
-}
-
-.python:hover #skill-name{
-
-    color: #1E90FF;
-}
-
-.python:hover{
-
-    background-color: white;
-
-}
-
-.web{
-
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    box-sizing: border-box;
-    grid-area: web;
-    height:100px;
-    width: 350px;
-    padding: 8px;
-    transition: all .5s ease;
-    background-color:  #1E90FF;
-    margin-bottom: 12px;
-    
-}
-
-.web:hover #skill-img {
-
-    transform: scale(1.1);
-    color: #1E90FF;
-   
-}
-
-.web:hover #skill-name{
-
-    color: #1E90FF;
-}
-
-.web:hover{
-
-    background-color: white;
-}
-
-.uiux{
-
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    box-sizing: border-box;
-    grid-area: uiux;
-    height: 100px;
-    width: 350px;
-    padding: 8px;
-    transition: all .5s ease;
-    background-color:  #1E90FF;
-    margin-bottom: 12px;
-    
-    
-}
-
-.uiux:hover{
-    background-color: white;
-}
-
-.uiux:hover #skill-img{
-
-    transform: scale(1.1);
-    color: #1E90FF;
-    
-}
-
-.uiux:hover #skill-name{
-
-    color: #1E90FF;
-}
- 
  /* ------------------------------------ CLAIM TO FAME END ----------------------------- */
 
 
