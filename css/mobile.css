@@ -73,7 +73,6 @@
         width: 100vw;
         height: 100vh;
         display: flex;
-        
         flex-direction: column; 
         justify-content: center; 
         align-items: center; 
@@ -456,9 +455,8 @@
 
     margin-top: 5px;
     display: block;
-    
+    padding: 8px;
    
-    
     
 }
 
@@ -468,16 +466,18 @@
     height: 75px;
     position: relative;
     top: 28px;
-    left: 120px;
+    left: 10px;
 }
 
 .contact-me-wrapper{
 
-    background-image: linear-gradient(45deg,#fff,#1E90FF) ;
+    background-color: #1E90FF ;
+    background-image: none;
     height: 150px;
     width: 100%;
     border-radius: 10px;
     line-height: 0;
+    box-sizing: border-box;
    
   
 }
@@ -491,6 +491,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    box-sizing: border-box;
     
     
     
@@ -502,6 +503,7 @@
     font-size: 18px;
     padding: 12px;
     margin-top: 50px;
+    color: white;
 }
 
 
@@ -517,7 +519,7 @@
     background-color: white;
     border-radius: 5px;
     font-size: 10px;
-    color:black;
+    color: #3198ff;
     box-shadow: 3px 4px 12px #3198ff;
 }
 
