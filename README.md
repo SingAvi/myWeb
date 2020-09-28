@@ -1,6 +1,6 @@
 # myWeb
 
-## Have a look over the webpage developed - ( Development Phase )
+## Have a look over the webpage developed - ( HTML CSS Done, Working on JS )
 
 https://singavi.netlify.app
 
